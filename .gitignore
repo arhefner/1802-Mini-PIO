@@ -2,6 +2,7 @@
 # Format documentation: http://kicad-pcb.org/help/file-formats/
 
 # Temporary files
+*-backups/
 *.000
 *.bak
 *.bck
@@ -13,6 +14,7 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
+export/
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -20,6 +22,7 @@ fp-info-cache
 # Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
+*.rules
 
 # Exported BOM files
 *.xml
