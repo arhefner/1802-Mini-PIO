@@ -2361,7 +2361,7 @@
     )
     (symbol "74HC573_1_0"
       (pin input inverted (at -12.7 -12.7 0) (length 5.08)
-        (name "OE" (effects (font (size 1.27 1.27))))
+        (name "~{OE}" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
       (pin power_in line (at 0 -20.32 90) (length 5.08)
